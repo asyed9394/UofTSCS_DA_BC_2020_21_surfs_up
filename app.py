@@ -22,7 +22,7 @@ from flask import Flask , jsonify
 #sqlite:///relative/path/to/file.db
 #sqlite:////absolute/path/to/file.db
 
-engine = create_engine('sqlite:///hawaii.sqlite')
+engine = create_engine('sqlite:///hawaii.sqlite' , connect_args={'check_same_thread': False})
 #reflect the database into ORM
 Base = automap_base()
 Base.prepare(engine, reflect = True)
