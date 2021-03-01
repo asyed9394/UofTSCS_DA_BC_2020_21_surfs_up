@@ -60,7 +60,7 @@ Software: Anaconda Jupyter notebook Python 3.7 , pandas, SQLAlchemy
 
 ### June Box Plot:
 
-![June temp boxplot](Images/Jun_boxplt.png)
+![June temp boxplot](Images/Jun_boxplot.png)
 
 ### Dec Box Plot:
 
