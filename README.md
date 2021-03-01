@@ -76,12 +76,12 @@ Software: Anaconda Jupyter notebook Python 3.7 , pandas, SQLAlchemy
 
 5. We can further reduce the analysis to only station number USC00519281 ,which has the most observations throughtout the year.
 
-- June query:
+	- June query:
 			june_temp = session.query(Measurement.tobs).\
             				filter(func.strftime("%m",Measurement.date) == "06").\
 					filter(Measurement.station == 'USC00519281' ).all()
 
-- Dec query:
+	- Dec query:
 			dec_temp = session.query(Measurement.tobs).\
             			filter(func.strftime("%m",Measurement.date) == "12").\
 				filter(Measurement.station == 'USC00519281' ).all()
