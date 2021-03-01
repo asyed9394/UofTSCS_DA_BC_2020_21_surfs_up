@@ -25,6 +25,9 @@ The analysis is going to be shared with investors and obecitve it that it can be
 #### Software:
 Software: Anaconda Jupyter notebook Python 3.7 , pandas, SQLAlchemy 
 
+### Code file
+
+The code for the challenge can be found in [temp analysis jupyter notebook](SurfsUp_Challenge.ipynb)
 
 ## Results:
 1 Average Temperature in Jun is 4 degress Fahrenhit higher than Dec average temparture
