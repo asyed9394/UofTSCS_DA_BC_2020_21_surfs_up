@@ -72,7 +72,7 @@ Software: Anaconda Jupyter notebook Python 3.7 , pandas, SQLAlchemy
 
 ### Dec Histograms:
 
-![Dec temp historgrams](Images/Dec_Temp_histogram.png)
+![Dec temp historgrams](Images/DecTemp_histogram.png)
 
 
 
